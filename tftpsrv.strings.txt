@@ -1,0 +1,771 @@
+    114 /lib/ld.so.1
+   1051 main
+   1056 _init
+   105c _fini
+   1062 __libc_start_main
+   1074 __gmon_start__
+   1083 __deregister_frame_info
+   109b __register_frame_info
+   10b1 printf
+   10b8 __xstat
+   10c0 fopen
+   10c6 my_malloc
+   10d0 fread
+   10d6 fclose
+   10dd sscanf
+   10e4 my_free
+   10ec system
+   10f3 kill
+   10f8 sleep
+   10fe msg_upgrade_fail
+   110f msg_wait
+   1118 sys_sleep
+   1122 msg_reboot
+   112d setupInfo
+   1137 sprintf
+   113f strlen
+   1146 udp_sendto
+   1151 memset
+   1158 memcpy
+   115f RC4Cry
+   1166 strcmp
+   116d strcpy
+   1174 FillScreen
+   117f LCDDrawString
+   118d LCDFlushScreen
+   119c tftp_data
+   11a6 shmdt
+   11ac tftp_id
+   11b4 shmctl
+   11bb LED_Switch_all
+   11ca fwrite
+   11d1 fflush
+   11d8 sync
+   11dd memcmp
+   11e4 sys_lan_mac
+   11f0 sys_net_mac
+   11fc socket
+   1203 act_printf
+   120e inet_pton
+   1218 ioctl
+   121e inet_aton
+   1228 close
+   122e p125_mii_write
+   123d data_printf
+   1249 p125_mii_write_bit
+   125c seg_id
+   1263 unlink
+   126a msg_upgrade_ok
+   1279 open
+   127e shmget
+   1285 shmat
+   128b read
+   1290 perror
+   1297 bzero
+   129d lseek
+   12a3 write
+   12a9 malloc
+   12b0 free
+   12b5 SetBtldBootState
+   12c6 LCDDrawPoint
+   12d3 lcdbuf
+   12da udp_open
+   12e3 select
+   12ea udp_recvfrom
+   12f7 my_stricmp
+   1302 atoi
+   1307 sys_currtime
+   1314 xsocket_addr_cmp
+   1325 sys_difftime
+   1332 strstr
+   1339 strncmp
+   1341 timeout_curr
+   134e LCDInit
+   1356 FontFin
+   135e language_id
+   136a GetBtldBootLanguage
+   137e FontInit
+   1387 udp_close
+   1391 cmd_s
+   1397 exit
+   139c msg_hw_init
+   13a8 fd_lcd
+   13af engfont12
+   13b9 use_wchar
+   13c3 LCDFin
+   13ca sys_thread_exit
+   13da LEDInit
+   13e2 LEDSwitch
+   13ec sys_begin_thread
+   13fd udp_open_host
+   140b xsocket_addr
+   1418 connect
+   1420 fork
+   1425 sigemptyset
+   1431 sigaction
+   143b get_all_if
+   1446 pthread_create
+   1455 pthread_exit
+   1462 pthread_cancel
+   1471 sem_init
+   147a sem_destroy
+   1486 sem_post
+   148f sem_wait
+   1498 sem_trywait
+   14a4 gettimeofday
+   14b1 sem_timedwait
+   14bf usleep
+   14c6 xsocket_get_ip
+   14d5 __ctype_tolower
+   14e5 __ctype_toupper
+   14f5 __ctype_b
+   14ff get_if_mac
+   150a szDbgLog
+   1513 vsprintf
+   151c strchr
+   1523 time
+   1528 rand
+   152d bind
+   1532 sys_net_ip
+   153d gethostbyname
+   154b inet_ntoa
+   1555 inet_addr
+   155f ip4_ip
+   1566 ip_ip4
+   156d fcntl
+   1573 SYS_IF_NAME
+   157f setsockopt
+   158a shutdown
+   1593 recvfrom
+   159c sendto
+   15a3 if_list
+   15ab stderr
+   15b2 fprintf
+   15ba g_btparam
+   15c4 g_facdef
+   15cd jpfont
+   15d4 scfont
+   15db tcfont
+   15e2 engfont16
+   15ec __fxstat
+   15f5 strncpy
+   15fd _DYNAMIC_LINKING
+   160e __RLD_MAP
+   1618 libpthread.so.0
+   1628 _gp_disp
+   1631 _IO_stdin_used
+   1640 libc.so.6
+   164a GLIBC_2.2
+   1654 GLIBC_2.0
+   20c0 4Bfg
+   21a0 '9(8
+   21e0 '9(8
+   238e  !&E
+   26e5   !'
+   274d   !'
+   2bfc '9[D
+   323d   !4
+   32e1   !4
+   3339   !4
+   3346 0!4B
+   3670 '9/`
+   36cc '9/`
+   3720 '9/`
+   38f5   !$
+   3c1c $!:x
+   3c7c '9IH
+   3d1c '9IH
+   3d64 '9W 
+   40d8 '9*x
+   410c '9(8
+   4475  (!'
+   49e1   !'
+   49f0 '9HL
+   4b20 &R<T
+   4dd1   !'
+   4de0 '9HL
+   4fa9   !'
+   4fb8 '9HL
+   5258 '9M<
+   5398 '9HL
+   5830 '9HL
+   5d5a  !2"
+   622d B(!&
+   63c4 '9(8
+   6408 '9(8
+   64bc '9(8
+   6520 '9(8
+   6564 '9(8
+   66b1   !&
+   6746 (!&P
+   6a51 Q(#&
+   6c65   !'
+   6c89 @(!$
+   6fa1 $ !0
+   704d `(!'
+   708c '9"0
+   7266 (!$F
+   7420 $BCx
+   76ac $BE$
+   76fc $BEP
+   7754 $BE|
+   78db b4cM
+   7a51 `(!$
+   7aa8 $BD(
+   7bc9 `(!$
+   7fa6 0!4B
+   81cd `(!$
+   8231 `(!$
+   82ab b4cM
+   8380 '9(8
+   8bc0 '9DH
+   8e6d  (!$
+   8ee7 b4cM
+   8fd9  (!$
+   928d   !$
+   9575 $ !0
+   9cd5 @(!'
+   a314 '9(8
+   a3e5  (!'
+   a608 '9(8
+   a64c '9(8
+   a690 '9M<
+   a790 '9(8
+   a7cc '9M<
+   ad40 '9O,
+   b1ee (!&&
+   b6d7 b4BM
+   b70c 4cB@
+   b739   !'
+   b775 @ !$
+   bee5   !'
+   c449 @8!$
+   c5a9 @(!$
+   c60b U6R	
+   c7e6  !$B
+   cc82 (!$C
+   d159 @0!$
+   d3c5 E@!$
+   d4ab b4cM
+   d60d   !'
+   da4d   !'
+   e0ed   !4
+   e145   !4
+   ebed ` !4
+   ecf9 ` !4
+   f44d @(!$
+   f4c1   !$
+   f5b5  (!$
+   f669 @(!$
+   f795 @(!$
+   f809   !$
+   f91d  (!$
+   f9f9 @(!$
+   fa95   !$
+   fb99  (!$
+   fefd @ !$
+  10559 @ !$
+  107b9 @ !$
+  10a1d  (!'
+  10a90 $!Ph
+  10b05   !&
+  10bad  (!'
+  10c95   !&
+  10df1  (!'
+  10f6d  (!'
+  110e8 &sPX
+  11119  (!'
+  11a19 P !$
+  11cf4 '9$8
+  11e1f !,B"?
+  11e30 4B9_
+  11e4f !,B0
+  12341 F0!(
+  1236c $F3&$
+  12559 C0!,
+  12739 @ !<
+  12e05  (!$
+  12e61  (!$
+  12fd4 R3000C
+  12fdc MIPS
+  12fe4 mips
+  12fec Invalid CPU
+  12ff8 RtosTx
+  13008 pSOS
+  13010 psos
+  13018 VxWorks
+  13020 vxworks
+  13028 Linux
+  13030 linux
+  13038 NetBSD
+  13040 netbsd
+  13048 Invalid OS
+  13054 Test Program
+  13064 testapp
+  1306c Melody File
+  13078 melody
+  13080 DSP module File
+  13090 dspdrv
+  13098 Web Language File
+  130ac weblang
+  130b4 Web Html File
+  130c4 webhtml
+  130cc UI Message
+  130d8 uimsg
+  130e0 DHCP Client
+  130ec dhcpc
+  130f4 ECR Client Program
+  1310c Auto-P Program
+  1311c autop
+  13124 TFTP Server
+  13130 tftp
+  13138 SIP Program
+  13148 Flash File System
+  1315c flashfs
+  13164 Script
+  1316c script
+  13174 Firmware
+  13180 firmware
+  1318c Multi-File Image
+  131a0 multi
+  131a8 RAMDisk Image
+  131b8 ramdisk
+  131c0 Kernel Image
+  131d0 kernel
+  131d8 Standalone Program
+  131ec standalone
+  131f8 Invalid Image
+  13208 jffs2 compressed
+  1321c jffs2
+  13224 bzip2 compressed
+  13238 bzip2
+  13240 gzip compressed
+  13250 gzip
+  13258 uncompressed
+  13268 none
+  13270 Unknown Compression
+  13284 Unknown Architecture
+  1329c Unknown OS
+  132a8 Unknown Image
+  132b8 %s %s %s (%s)
+  132c8 /var/run/sip.pid
+  132e4 echo 1 > /tmp/pass_chg
+  132fc echo 1 > /tmp/mp3_hold
+  13314 echo 2 > /tmp/mp3_ring
+  1332c echo 1 > /tmp/misc_chg
+  13344 Cannot kill act_sip process: %d
+  13368 probe_recv(%d)
+  1337a device %s
+  13384 version %02d.%02d.%02d
+  1339c DPH-128MS
+  133aa result FAIL
+  133ba result OK
+  133c4 reboot
+  133cc /tmp/%s
+  133d8 !9 WriteToTmp open error (%s)!!
+  133fc sync;chmod 777 /tmp/%s
+  13414 !9 Write (%s) to Jffs full (free:%d, write:%d)!!
+  13448 !9 Write (%s) to Jffs retry Error (%d)!!
+  13474 /sip/%s
+  1347c !9 Write (%s) To Jffs open error!!
+  134a0 sync;chmod 777 /sip/%s
+  134b8 !9 Write (%s) To Jffs read error!!
+  134dc !9 Write (%s) To Jffs Alloc memory error!!
+  13508 !9 Write (%s) To Jffs Check OK !!
+  1352c ifconfig %s down
+  13540 %.2x:%.2x:%.2x:%.2x:%.2x:%.2x
+  13560 ifconfig %s hw ether %s
+  13578 ifconfig %s 0.0.0.0 up
+  13590 192.168.15.1
+  135a0 255.255.255.0
+  135b0 192.168.15.254
+  135c0 socket open error
+  135d4 !9 inet_pton error
+  135e8 device error, can't set ip
+  13604 0.0.0.0
+  1360c SIOCADDRT error
+  13620 eth0
+  13628 vconfig add eth0 1
+  1363c eth0.1
+  13644 vconfig add eth0 2
+  13658 eth0.2
+  13660 start 192.168.15.2
+  13678 end 192.168.15.10
+  1368c interface eth0.1
+  136a0 opt subnet 255.255.255.0
+  136bc opt router %s
+  136cc opt dns %s
+  136dc opt lease 86400
+  136f0 /etc/udhcpd.conf
+  13708 /sbin/udhcpd /etc/udhcpd.conf
+  13728 ifconfig eth0.2 down
+  13740 mount -t jffs2 /dev/mtdblock0 /mnt/jffs2;mv /sbin/ring.mp3 /sip/ring.mp3;mv /sbin/hold.mp3 /sip/hold.mp3
+  137ac /sip/tftpsrv.gz
+  137bc mv /sip/ring.mp3 /sbin/ring.mp3;mv /sip/hold.mp3 /sbin/hold.mp3;/bin/umount /dev/mtdblock0
+  13818 /sip/act_sip.gz
+  13828 act_sip.gz
+  13834 tftpsrv.gz
+  13840 ecr_client.gz
+  13850 Installing Ecr_client..
+  1386c cd /sip;gunzip -f ecr_client.gz
+  1388c Done.
+  13894 dhcpcd.gz
+  138a0 msg.tar.gz
+  138ac Installing Msg..
+  138c0 cd /sip;gunzip -f msg.tar.gz;tar -xf msg.tar;rm -f msg.tar
+  138fc htm.tar.gz
+  13908 Installing Htm..
+  1391c mv /sip/htm.tar.gz /tmp;cd /tmp;gunzip -f htm.tar.gz;tar -xf htm.tar;rm -fr /sip/htm;mv htm /sip
+  13980 dsp.tar.gz
+  1398c Installing DSP..
+  139a0 cd /sip;gunzip -f dsp.tar.gz;tar -xf dsp.tar;mv -f sd_dev/* .;rm sd_dev -rf;rm -f dsp.tar
+  139fc melody.tar.gz
+  13a0c Installing Melody..
+  13a24 cd /sip;gunzip -f melody.tar.gz;tar -xf melody.tar;rm -f melody.tar
+  13a68 test_app
+  13abb ,/bin/umount /dev/mtdblock0
+  13ad8 /dev/flash
+  13ae4 Can't open flash device
+  13afc Read flash memory alloc error
+  13b1c Read flash device error
+  13b34 !3 TFTP: %s doesn't exist
+  13b50 !1 Read buffer too small
+  13b6c !3 TFTP: Cannot Read %s
+  13b88 !0 TFTP: Read %s %d bytes
+  13ba4 Get flash region failure !
+  13bc0 Get flash base address failure !
+  13be4 !3 Can't open flash dev file !
+  13c04 cd /sip;tar -cf /tmp/backup.tar *.bin mp3.cfg SMS.dat;cd /tmp;gzip backup.tar
+  13c54 /tmp/backup.tar.gz
+  13c68 !3 Backup: File not found (%s)
+  13c88 !3 Backup: Size too big (%d)
+  13ca8 !3 Backup: Cannot Read %s
+  13cc4 Backup config......
+  13cdc Free backup space : %d/%d
+  13cf8 !3 Backup: Write flash failure !
+  13d1c !3 Clear: Write flash failure !
+  13d40 read flash failure !
+  13d58 Restore config......
+  13d70 cd /tmp;gunzip backup.tar.gz;tar -xf backup.tar;rm backup.tar;rm -f /sip/*.bin /sip/mp3.cfg /sip/SMS.dat;mv *.bin /sip;mv mp3.cfg /sip;mv SMS.dat /sip
+  13e08 Clear Backup......
+  13e1c !3 Can't get memory !
+  13e34 !3 Can't seek on flash !
+  13e50 !5 Kernel update fail at %d block
+  13e74 !0 Kernel update success
+  13e90 !5 FlashFS update fail at %d block
+  13eb4 !0 FlashFS update success
+  13ed0 df /mnt/jffs2 > /tmp/jffs2.free
+  13ef0 /tmp/jffs2.free
+  13f00 *** Warning: %08x:%08x:%d"%s" has bad header checksum!
+  13f38 *** Warning: %08x:%08x:%d"%s" has corrupted data!
+  13f70 Image Name:      %s
+  13f88 Image Type:      
+  13f9c Data  Size:      %d Bytes
+  13fb8 Load  Address:   0x%08x
+  13fd4 Entry Point:     0x%08x
+  13ff0 Header Checksum: 0x%08x
+  1400c Image Checksum:  0x%08x
+  14028 Contents:
+  14034    Image %d: %8d Bytes = %4d kB = %d MB
+  14060     Offset = %08x
+  14074 error ?
+  14080 !0 TFTP: Boot Open Failed!!
+  140a0 !0 TFTP: Boot SEEK_0 Failed!!
+  140c0 !0 TFTP: Boot0 pos(%d), len(%d), ok(%d)!!
+  140ec !0 TFTP: Boot SEEK_1 Failed(%d)!!
+  14110 !0 TFTP: Boot1 pos(%d), len(%d), ok(%d)!!
+  1413c !0 Boot update success
+  14155 *************feeding bitmap file not supported!!
+  14189 *************feeding bitmap's width or height not supported!!
+  141c8 !0 TFTP: Flash Open Failed!!
+  141e8 !0 TFTP: Flash SEEK_0 Failed(%d)!!
+  1420c !0 TFTP: Flash SEEK_1 Failed(%d)!!
+  14230 !0 TFTP: BMP pos(%08xL), ok(%d)!!
+  14254 !0 Boot BMP update success
+  14270 !0 AD BMP %d update success
+  14290 bind err
+  1429c web probe bind err
+  142b0 !1 TFTP Invalid command (%d)
+  142d0 Invalid command
+  142e0 !1 TFTP Invalid file(%s)
+  142fc Invalid file
+  1430c .cfg
+  14314 mp3.cfg
+  1431c .bmp
+  14324 .mp3
+  1432c /tmp/new.mp3
+  1433c !1 New MP3 file incoming before previous be processed(%s)
+  14378 Server busy!
+  14388 hold.mp3
+  14394 ring.mp3
+  143a0 boot.bmp
+  143ac !1 Invalid bitmap file(%s)
+  143c8 .img
+  143d0 .###
+  143d8 Busy Here
+  143e4 !1 TFTP Data failed(%d)
+  14400 Data Failed
+  1440c !1 TFTP Block Lost(%d, %d)
+  14428 Block Lost
+  14434 !1 Invalid bitmap file
+  1444c !1 Invalid file(%d)
+  14464 /sip/chksum.bin
+  14474 0x%08X
+  1447c !6 Write checksum : 0x%08x
+  14498 ACT_MANUFACTORY
+  144a8 ACT_Image_SD_%s
+  144b8 P125_MSFT
+  144c4 !1 Invalid product file(%s)
+  144e4 Invalid product file
+  144fc tftp_max1 %d
+  1450c !1 TFTP Memory failed
+  14524 Memory Failed
+  14534 !1 TFTP Data Too Long(%d)
+  14550 Data Too Long
+  14560 !1 MP3 Hold over limit(%d)
+  1457c MP3 Hold over limit
+  14590 !1 MP3 Ring over limit(%d)
+  145ac MP3 Ring over limit
+  145c0 !0 TFTP PUT(%s) LEN(%d) %s time(%d)
+  145ec FAIL
+  145f4 !6 Write MP3 file %d : %d
+  14610 VerifyImage(%s)
+  14624 /tmp/mp3.cfg
+  14634 !6 Write mp3.cfg : %d
+  1464c !6 previous mp3.cfg not be processed yet!
+  14678 /tmp/config.cfg
+  14688 !6 Write Config.cfg : %d
+  146a4 !6 already config file here!!
+  146c4 rmmod sdvepvoip;rmmod sdvepfxs;
+  146e4 readflash.###
+  146f4 !1 TFTP Read Flash
+  14708 Flash Read Fail!!
+  1471c Flash Read OK!!
+  1472c getmp3cfg.###
+  1473c !1 TFTP Read mp3.cfg
+  14754 /sip/mp3.cfg
+  14764 getflash.###
+  14774 !1 TFTP tftp_getdata null(%s)
+  14794 data null
+  147a0 !1 TFTP Extract Fail(len < 4)
+  147c0 !1 TFTP Extract Fail ---> %.2X
+  147e0 !1 TFTP Extract block lost
+  147fc !0 TFTP Extract %s %d bytes finished
+  14824 !3 TFTP Failed
+  14834 /sip/setupinfo.bin
+  14848 !6 WriteSetupInfo: 0. len(%.8lX)
+  1486c TFTPServer Receive signal %d
+  1488c select: error(%d)
+  148a0 select: not found
+  148b4 text
+  148bc !3 Err: ACF too large(%d)
+  148d8 /tmp/uimsg
+  148fc Upgrade OK !
+  1490c Upgrading Fail !
+  14920 Rebooting ...
+  14930 Please Wait!
+  14940 H/W Initializing
+  14954 tftp auto free
+  14964 Wait for Upgrade
+  14978 cmd_recv: %s
+  14988 share_mem_id
+  14998 sscreen_start
+  149a8 sscreen_stop
+  149b8 Tftp server CMD thread: begin
+  149d8 Tftp server CMD thread: end
+  149f8 127.0.0.1
+  14a04 !1 CMD CONNECTED UDP connection failed!!!
+  14a30 TFTP Server PID = %d
+  14a48 insmod /sbin/act_lcd.o;insmod /sip/sdvepfxs.o;insmod /sip/sdvepvoip.o
+  14a90 ===============================
+  14ab4 TFTP_SRV V: 03.02.00 2008.01.09
+  14ad8 cd /sbin;chmod 755 act_sip;./act_sip ph
+  14b00 eth0
+  14b08 %02X 
+  14b18 !0 my_malloc: sema-check
+  14b34 !8 my_malloc(%d) error
+  14b4c Double Free!!!
+  14b5c %.2X%.2X%.2X%.2X%.2X%.2X
+  14b78 %d.%d.%d.%d
+  14b84 nameserver	
+  14b94 !2 ACT CheckSum src_len = %d length = %d
+  14bc0 !2 Act CheckSum = %X lSum = %X
+  14be0 !2 Act CheckSum iCheckInt = %X iCheckXor = %X
+  14c10 !2 Act CheckSum check point error
+  14c34 Flash clear Not Porting
+  14c50 Flash read Not Porting
+  14c68 Flash Write Not Porting
+  14c90 xsocket_addr(%s)
+  14ca4 !0 Err: domain name %s
+  14cbc %s:%d
+  14cc8 !0 Naddr:%s
+  14cd8 socket open error
+  14cec device error, can't get %s info
+  14d10 setsockopt SO_REUSEADDR failed
+  14d30 Set TOS fail: tos(%.4X)!
+  14d4c ERROR: SIOCGIFCONF
+  14d60 total if=%d
+  14d70 check sum=%08x
+  14d80 saveFactoryDefault: Flash SEEK_0 Failed!!
+  14dac saveFactoryDefault: Flash SEEK_1 Failed!!
+  14dd8 saveFactoryDefault: backup Failed!!
+  14e00 Get factory_default failure !
+  14e20 Get flash base address failure !
+  14e44 saveFactoryDefault: restore Failed!!
+  14e6c saveBootParam: Flash SEEK_0 Failed!!
+  14e94 saveBootParam: Flash SEEK_1 Failed!!
+  14ebc saveBootParam: backup Failed!!
+  14edc Get boot parameters failure !
+  14efc lseek on flash dev file failure !
+  14f20 Write flash error:
+  14f34 saveBootParam: restore Failed!!
+  14f58 Read flash dev file failure !
+  14f78 Get factory default failure !
+  14f98 Can't open flash device file: %s !
+  14fc0 /dev/lcddev
+  14fcc /sip/asc12
+  14fd8 /sip/asc16
+  14fe4 cp /sip/%s /sbin;gunzip /sbin/%s
+  15008 hzx12.gz
+  15014 /sbin/hzx12
+  15020 rm %s
+  15028 k12x12.fnt.gz
+  15038 /sbin/k12x12.fnt
+  1504c hzk12.gz
+  15058 /sbin/hzk12
+  150e0 IOCTL_LED_MSG failed:%d
+  150fc IOCTL_nCS_Clear failed:%d
+  15118 IOCTL_WD_START
+  15128 IOCTL_WD_RESET
+  15138 IOCTL_WD_STOP
+  15150 eth0
+  15159 p125_mii_init: Socket Error!
+  15178 SIOCSMIIREG on %s failed!
+  15194 Read Error !!!
+  16267 <fBBf<
+  16288 <ffff<
+  16294 ?3?0000p
+  162a3 ccccg
+  162dc fffffff
+  16363 88||
+  16370 ||88
+  1639f (|(|(PP
+  163aa 8@@8Hp
+  163c4   TH4
+  16439 8DDDDDD8
+  16475 <  8
+  16482  @xDDD8
+  16499 8DD8DDD8
+  164a5 8DDD<
+  164f8 8DDLTTL@D8
+  16507 (((|DD
+  16511 xDDxDDDx
+  1651d 8D@@@@D8
+  16529 pHDDDDHp
+  16535 |@@x@@@|
+  16541 |@HxH@@@
+  1654d <D@@LDD8
+  16559 DDD|DDDD
+  16575 HHH0
+  1657d DDHPpHDD
+  16589 @@@@@@@|
+  16595 DllTTDDD
+  165a1 DddTTTLD
+  165ad 8DDDDDD8
+  165b9 xDDDx@@@
+  165c5 8DDDDDD8
+  165d1 xDDDxHDD
+  165dd 4L@8
+  165f5 DDDDDDD8
+  16601 DDD(((
+  1660d DDDTTTT(
+  16625 DD((
+  1663d 8        8
+  16649 @   
+  16687 8D<DD<
+  16691 @@XdDDDx
+  1669f 8D@@D8
+  166ab 4LDDD<
+  166b7 8D|@@<
+  166cf 4LDDD<
+  166d9 @@XdDDDD
+  166fd @@DHpPHD
+  16717 hTTTTT
+  16723 XdDDDD
+  1672f 8DDDD8
+  1673b XdDDDx@@
+  16747 4LDDD<
+  16753 LP`@@@
+  1676a  |    
+  16777 DDDDL4
+  16783 DDD((
+  1678f DDTTT(
+  167a7 DD$(
+  167f9 8D@@@@D8
+  16807 DDDDL4
+  16813 8D|@@<
+  1681f 8D<DD<
+  1682b 8D<DD<
+  16837 8D<DD<
+  16843 8D<DD<
+  1684f 8D@@D8
+  1685b 8D|@@<
+  16867 8D|@@<
+  16873 8D|@@<
+  168a4 ((|DD
+  168b0 ((|DD
+  168bb |@x@@|
+  168c8 >U>Xv
+  168d2 < P|PP\
+  168e0 8DDD8
+  168ec 8DDD8
+  168f8 8DDD8
+  16903 DDDDL4
+  1690f DDDDL4
+  1691b DD$(
+  16927 8DDDD8
+  16933 DDDDL4
+  1693f <TPPT8
+  1694a ( x  8
+  1697b 8D<DD<
+  16994 8DDD8
+  1699f DDDDL4
+  169ab XdDDDD
+  169b7 DdTTLD
+  169fc    $(
+  16a08    $(
+  16b4c (((((,((((((((((, <
+  16b68 < ,(((((((((
+  16b83 (((((((((, ,(((((
+  16ba0 ((((
+  16ba7 (((((
+  16bb8 (((((
+  16bd6 (((((((((((<
+  16c05 <(((((((((((
+  16c12 ((((((
+  16c86 xHPHD\@@
+  16c93 L0   
+  16c9f |((,
+  16cb7 8PP 
+  16cc3 DDDD|@@@
+  16cdc 8TT8
+  16ce6 8D|DDD8
+  16cf3 0HHHH
+  16d00 hHH0
+  16d0b (TT(
+  16d18 8TTT8
+  16d23 8@x@8
+  16d2f 8DDDD
+  16d8e  TL TL
+  16dc9  8$$$
+  16de4 xxxx
+  16e85 gqr<
+  16ee7 $/o|
+  16ef5 f-=v
+  17021 mj>zjZ
+  17051 l6qnk
+  17190 IiGM>nw
+  17210 eth0
+  17218 eth1
+  17234 0123456789.
+  17250 /dev/flash

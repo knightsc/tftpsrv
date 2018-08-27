@@ -1,0 +1,152 @@
+0040cd14 00000020 T act_printf
+         U atoi
+         U bind
+         U bzero
+         U close
+10001530 00000004 S cmd_s
+         U connect
+         U __ctype_b
+         U __ctype_tolower
+         U __ctype_toupper
+0040cd34 000000ac T data_printf
+         w __deregister_frame_info
+10001538 00000004 S engfont12
+10001520 00000004 S engfont16
+         U exit
+         U fclose
+         U fcntl
+10001518 00000004 S fd_lcd
+         U fflush
+00411344 0000004c T FillScreen
+00412f70 T _fini
+00411230 00000114 T FontFin
+00410970 000008c0 T FontInit
+         U fopen
+         U fork
+         U fprintf
+         U fread
+         U free
+         U fwrite
+         U __fxstat
+10005d70 000000dc B g_btparam
+0040eb08 000003b0 T get_all_if
+00410658 00000120 T GetBtldBootLanguage
+         U gethostbyname
+0040eeb8 00000164 T get_if_mac
+         U gettimeofday
+10005d30 00000038 B g_facdef
+         w __gmon_start__
+10005a70 000002bc B if_list
+         U inet_addr
+         U inet_aton
+         U inet_ntoa
+         U inet_pton
+004017f4 T _init
+         U ioctl
+00412fc0 00000004 R _IO_stdin_used
+0040c2b0 0000006c T ip4_ip
+0040c204 000000ac T ip_ip4
+10001534 00000004 S jpfont
+         U kill
+10001524 00000004 S language_id
+10001fc0 00000400 B lcdbuf
+00411390 000000c4 T LCDDrawPoint
+00411bb0 00000180 T LCDDrawString
+00410924 0000004c T LCDFin
+00411454 00000054 T LCDFlushScreen
+004108c0 00000064 T LCDInit
+00412790 0000004c T LEDInit
+004125e0 00000124 T LEDSwitch
+00412704 0000008c T LED_Switch_all
+         U __libc_start_main
+         U lseek
+0040ab84 000002f4 T main
+         U malloc
+         U memcmp
+         U memcpy
+         U memset
+10003910 00000017 B msg_hw_init
+10003950 00000017 B msg_reboot
+10003970 00000017 B msg_upgrade_fail
+10003930 00000017 B msg_upgrade_ok
+10001fa0 00000017 B msg_wait
+0040b168 000000f4 T my_free
+0040af9c 000001cc T my_malloc
+0040bc6c 000000c0 T my_stricmp
+         U open
+00412ab4 0000013c T p125_mii_write
+00412dac 00000100 T p125_mii_write_bit
+         U perror
+         U printf
+         U pthread_cancel
+         U pthread_create
+         U pthread_exit
+         U rand
+0040c890 000001e0 T RC4Cry
+         U read
+         U recvfrom
+         w __register_frame_info
+10001280 D __RLD_MAP
+1000152c 00000004 S scfont
+10001544 00000004 S seg_id
+         U select
+         U sem_destroy
+         U sem_init
+         U sem_post
+         U sem_timedwait
+         U sem_trywait
+         U sem_wait
+         U sendto
+00410518 00000140 T SetBtldBootState
+         U setsockopt
+100023c0 00001550 B setupInfo
+         U shmat
+         U shmctl
+         U shmdt
+         U shmget
+         U shutdown
+         U sigaction
+         U sigemptyset
+         U sleep
+         U socket
+         U sprintf
+         U sscanf
+         U stderr
+         U strchr
+         U strcmp
+         U strcpy
+         U strlen
+         U strncmp
+         U strncpy
+         U strstr
+         U sync
+0040b298 00000058 T sys_begin_thread
+0040b838 00000088 T sys_currtime
+0040b8c0 00000060 T sys_difftime
+10001208 00000004 D SYS_IF_NAME
+0040c034 00000130 T sys_lan_mac
+0040b968 00000040 T sys_net_ip
+0040bf64 000000d0 T sys_net_mac
+0040b7ec 0000004c T sys_sleep
+         U system
+0040b2f0 00000034 T sys_thread_exit
+10003a90 00001f80 B szDbgLog
+10001540 00000004 S tcfont
+10001548 00000004 S tftp_data
+1000153c 00000004 S tftp_id
+         U time
+1000151c 00000004 S timeout_curr
+0040e668 00000074 T udp_close
+0040e348 00000154 T udp_open
+0040e49c 000001cc T udp_open_host
+0040e6dc 00000068 T udp_recvfrom
+0040e7fc 00000050 T udp_sendto
+         U unlink
+10001528 00000004 S use_wchar
+         U usleep
+         U vsprintf
+         U write
+0040d73c 000001c0 T xsocket_addr
+0040db40 000000c4 T xsocket_addr_cmp
+0040e040 000001b4 T xsocket_get_ip
+         U __xstat
